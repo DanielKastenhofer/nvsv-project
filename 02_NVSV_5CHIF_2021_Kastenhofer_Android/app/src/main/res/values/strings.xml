@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyNVSNProject</string>
+    <string name="header_text">Enter your name and email
+    to start using the App!</string>
+    <string name="first_name_label">First Name:</string>
+    <string name="email_label">Email:</string>
+    <string name="last_name_label">Last Name:</string>
+    <string name="login_button">LOGIN</string>
+    <string name="discount_code_confirmation">Your
+    discount code is below %s. Enjoy!</string>
+    <string name="add_text_validation">Please fill in all form fields</string>
+    <string name="welcome_text">Hello %s, we hope you enjoy
+    using the app!</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="item_movie_photo">Photo</string>
+</resources>

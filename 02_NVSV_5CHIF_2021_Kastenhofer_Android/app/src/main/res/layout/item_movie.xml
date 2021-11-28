@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <ImageView
+        android:id="@+id/item_movie_photo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/item_movie_photo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/item_movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/item_movie_photo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Star Wars" />
+
+    <TextView
+        android:id="@+id/item_movie_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/item_movie_title"
+        app:layout_constraintTop_toBottomOf="@+id/item_movie_title"
+        tools:text="Cool" />
+
+    <TextView
+        android:id="@+id/item_movie_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/item_movie_Description"
+        app:layout_constraintTop_toBottomOf="@+id/item_movie_Description"
+        tools:text="4" />
+
+    <TextView
+        android:id="@+id/item_movie_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/item_movie_rating"
+        app:layout_constraintTop_toBottomOf="@+id/item_movie_rating"
+        tools:text="Action" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

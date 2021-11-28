@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+    <EditText
+        android:id="@+id/order_email"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        app:layout_constraintStart_toStartOf="@+id/order_last_name"
+        app:layout_constraintTop_toBottomOf="@+id/order_last_name" />
+
+    <EditText
+        android:id="@+id/order_postal_code"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Postal Code"
+        app:layout_constraintStart_toStartOf="@+id/order_email"
+        app:layout_constraintTop_toBottomOf="@+id/order_email" />
+
+    <EditText
+        android:id="@+id/order_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/order_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last Name"
+        app:layout_constraintStart_toStartOf="@+id/order_first_name"
+        app:layout_constraintTop_toBottomOf="@+id/order_first_name" />
+
+    <Button
+        android:id="@+id/order_final_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="124dp"
+        android:text="Order to this address"
+        app:layout_constraintStart_toStartOf="@+id/order_postal_code"
+        app:layout_constraintTop_toBottomOf="@+id/order_postal_code" />
+</androidx.constraintlayout.widget.ConstraintLayout>

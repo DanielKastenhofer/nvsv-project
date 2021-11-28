@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject/app/src/main/res/layout/activity_home_page.xml" value="0.28229166666666666" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject/app/src/main/res/layout/activity_welcome.xml" value="0.10277777777777777" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject/app/src/main/res/layout/fragment_dashboard.xml" value="0.23802083333333332" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject/app/src/main/res/layout/fragment_notifications.xml" value="0.23802083333333332" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject/app/src/main/res/layout/item_movie.xml" value="0.3463541666666667" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject_Take2/app/src/main/res/layout/activity_home_page.xml" value="0.14583333333333334" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject_Take2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject_Take2/app/src/main/res/layout/activity_order.xml" value="0.4041666666666667" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject_Take2/app/src/main/res/layout/fragment_dashboard.xml" value="0.4041666666666667" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject_Take2/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/HTLLeonding/5.Klasse/NVS_Grule/MyNVSNProject_Take2/app/src/main/res/layout/item_movie.xml" value="0.8" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
